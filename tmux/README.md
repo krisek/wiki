@@ -2,12 +2,16 @@
 
 ## command line
 
-| ------ |
-| tmux ls |
-| tmux attach -t 0 |
-| tmux new -s database |
-| tmux rename-session -t 0 database |
-| tmux attach -t database |
+
+tmux ls
+
+tmux attach -t 0
+
+tmux new -s database
+
+tmux rename-session -t 0 database
+
+tmux attach -t database
 
 
 ## configuration
