@@ -2,8 +2,9 @@
 
 ## command line
 
-
-> tmux ls
+command | description
+------------ | -------------
+tmux ls | list sessions
 
 > tmux attach -t 0
 
