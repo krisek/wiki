@@ -4,16 +4,11 @@
 
 command | description
 ------------ | -------------
-tmux ls | list sessions
-
-> tmux attach -t 0
-
-> tmux new -s database
-
-> tmux rename-session -t 0 database
-
-> tmux attach -t database
-
+`tmux ls` | list sessions
+`tmux attach -t 0` | attach to session 0
+`tmux attach -t database` | attach to named session
+`tmux new -s database` | create a new session called database
+`tmux rename-session -t 0 database` | rename session
 
 ## configuration
 
