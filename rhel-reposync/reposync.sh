@@ -33,7 +33,7 @@ do
         yum --disablerepo=* --enablerepo=$repo makecache
 done
 
-ssh reposync@mirror /media/fileserver/plex-build/repoupdate7 >> /var/log/reposync_lastrun
+ssh reposync@mirror /media/fileserver/repoupdate7 >> /var/log/reposync_lastrun
 date
 cat /var/log/reposync_lastrun >> /var/log/reposync
 cat /var/tmp/header /var/log/reposync_lastrun > /tmp/reposync_lastrun
