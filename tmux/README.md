@@ -15,6 +15,9 @@ shortcut | description
 `C-b z` | expand current (split) pane; pressing it again restores the pane
 `C-b k` | kill pane
 `C-b d` | detach tmux
+`C-b ,  | rename window
+`C-b $  | rename session
+
 
 ## command line
 
